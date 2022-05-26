@@ -2,5 +2,9 @@
     "name": "WikiToWiki",
     "description": "Wikipedia To Wikipedia Racing",
     "version": "0.0.1",
-    "manifest_version": 3
+    "manifest_version": 3,
+    "permissions": ["storage"],
+    "action": {
+        "default_popup": "popup.html"
+    }
   }
