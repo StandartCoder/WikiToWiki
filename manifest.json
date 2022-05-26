@@ -3,7 +3,7 @@
     "description": "Wikipedia To Wikipedia Racing",
     "version": "0.0.1",
     "manifest_version": 3,
-    "permissions": ["storage"],
+    "permissions": ["storage", "activeTab", "tabs", "webNavigation", "webRequest", "webRequestBlocking", "http://*/*", "https://*/*"],
     "action": {
         "default_popup": "popup.html"
     }
