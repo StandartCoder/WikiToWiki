@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&display=swap");
+
+html {
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Spline Sans Mono", monospace;
+  text-align: center;
+}
+
+.btn-container {
+  height: 65vh;
+  display: flex;
+  align-items: center;
+}
+
+button {
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  font-family: "Spline Sans Mono", monospace;
+  color: #fff;
+  background: #adb5bd;
+  border: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+}
