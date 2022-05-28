@@ -1,0 +1,17 @@
+.btn-container {
+  height: 65vh;
+  display: flex;
+  align-items: center;
+}
+
+button {
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  font-family: "Spline Sans Mono", monospace;
+  color: #fff;
+  background: #adb5bd;
+  border: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+}
